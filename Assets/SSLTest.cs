@@ -53,6 +53,7 @@ public class SSLTest : MonoBehaviour
             else
             {
                 string responseText = req.downloadHandler.text;
+                _cachedResult = responseText;
                 if (responseText.Length > CharacterLimit)
                     responseText = responseText.Substring(0, CharacterLimit);
                 _cachedText.text = responseText;
