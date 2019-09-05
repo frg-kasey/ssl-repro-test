@@ -279,7 +279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CopiedAlert: {fileID: 451235686}
   URLLabel: {fileID: 1019667486}
-  CharacterLimit: 3000
+  CharacterLimit: 5000
 --- !u!222 &294115909
 CanvasRenderer:
   m_ObjectHideFlags: 0
